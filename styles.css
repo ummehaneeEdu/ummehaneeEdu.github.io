@@ -1,0 +1,73 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 15% 0% 15% 0%;
+}
+
+#head {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #808080;
+}
+
+.thinArrow {
+    color: #808080;
+    position: relative;
+    animation: moveRight 1.5s infinite;
+}
+
+@keyframes moveRight {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 25px;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #808080;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navIcon {
+    color: gray;
+}
+
+
+
+/* about me style */
+
+
+#aboutHead {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.aboutFont{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* project css */
+
+.hover-shadow:hover {
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2) !important;
+}
+
+/* resume css */
+ul > li, span{
+    color: #808080;
+}
