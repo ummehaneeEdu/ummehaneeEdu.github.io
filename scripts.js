@@ -33,7 +33,7 @@ function downloadFile(e) {
     e.preventDefault();
     const link = document.createElement('a');
     link.href = 'CV_of_UmmeHanee.pdf';
-    link.download = 'ResumeOfUmmeHanee.pdf';
+    link.download = 'CV_of_UmmeHanee.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
